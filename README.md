@@ -1,4 +1,4 @@
-# EX-NO-6-Pseudo-Random-Number
+<img width="1457" height="592" alt="image" src="https://github.com/user-attachments/assets/5e0c3cd2-26f1-4a21-9678-9d1b49b28b32" /># EX-NO-6-Pseudo-Random-Number
 
 # AIM: 
 Implementation of Pseudorandom Number Generation Using Standard library
@@ -11,7 +11,27 @@ Pass the value for number of iterations and print the numbers.
 End the program.
 
 # PROGRAM:
+```
+#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
+                        
+int main()
+{
+    int i;
+
+    srand(time(0));
+
+    printf("Pseudo-Random Numbers:\n");
+
+    for (i = 0; i < 5; i++)
+        printf("%d\n", rand() % 100);
+
+    return 0;
+}
+```
 
 # OUTPUT:
+<img width="1457" height="592" alt="image" src="https://github.com/user-attachments/assets/bff24760-ec2c-4d54-8144-4cf5df196a33" />
 
 # RESULT:
